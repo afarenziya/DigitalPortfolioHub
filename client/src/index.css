@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 226 42% 8%;
+    --foreground: 210 20% 85%;
+    
+    --card: 220 33% 14%;
+    --card-foreground: 210 20% 85%;
+    
+    --popover: 220 33% 14%;
+    --popover-foreground: 210 20% 85%;
+    
+    --primary: 270 95% 65%;
+    --primary-foreground: 0 0% 100%;
+    
+    --secondary: 210 100% 60%;
+    --secondary-foreground: 0 0% 100%;
+    
+    --muted: 220 20% 18%;
+    --muted-foreground: 220 20% 65%;
+    
+    --accent: 270 95% 65%;
+    --accent-foreground: 0 0% 100%;
+    
+    --destructive: 0 62% 60%;
+    --destructive-foreground: 0 0% 100%;
+    
+    --border: 220 20% 20%;
+    --input: 220 20% 20%;
+    --ring: 270 95% 65%;
+    
+    --radius: 0.5rem;
+
+    --chart-1: 270 95% 65%;
+    --chart-2: 210 100% 60%;
+    --chart-3: 140 63% 42%;
+    --chart-4: 40 91% 51%;
+    --chart-5: 0 62% 60%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  /* Custom Animations */
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+
+  .animate-float {
+    animation: float 3s ease-in-out infinite;
+  }
+
+  .animation-delay-500 {
+    animation-delay: 500ms;
+  }
+
+  .animation-delay-1000 {
+    animation-delay: 1000ms;
+  }
+}
