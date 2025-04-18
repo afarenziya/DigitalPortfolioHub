@@ -1,10 +1,27 @@
 import express, { type Request, Response, NextFunction } from "express";
+import compression from "compression";
 import { registerRoutes } from "./routes";
 import { setupVite, serveStatic, log } from "./vite";
 
 const app = express();
+// Enable GZIP compression for all responses
+app.use(compression());
+// Parse request bodies
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
+
+// Set security headers
+app.use((req, res, next) => {
+  // Enable strict transport security
+  res.setHeader('Strict-Transport-Security', 'max-age=31536000; includeSubDomains; preload');
+  // Prevent MIME type sniffing
+  res.setHeader('X-Content-Type-Options', 'nosniff');
+  // Enable XSS protection in browsers
+  res.setHeader('X-XSS-Protection', '1; mode=block');
+  // Control frame embedding
+  res.setHeader('X-Frame-Options', 'SAMEORIGIN');
+  next();
+});
 
 app.use((req, res, next) => {
   const start = Date.now();
