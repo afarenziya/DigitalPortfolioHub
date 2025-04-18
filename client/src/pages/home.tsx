@@ -5,8 +5,11 @@ import { Services } from "@/components/services";
 import { Portfolio } from "@/components/portfolio";
 import { About } from "@/components/about";
 import { Testimonials } from "@/components/testimonials";
+import { Clients } from "@/components/clients";
 import { Contact } from "@/components/contact";
 import { Footer } from "@/components/footer";
+import { WhatsAppButton } from "@/components/ui/whatsapp-button";
+import { ScrollToTop } from "@/components/ui/scroll-to-top";
 
 const Home = () => {
   // Implement smooth scrolling for anchor links
@@ -45,9 +48,12 @@ const Home = () => {
       <Services />
       <Portfolio />
       <About />
+      <Clients />
       <Testimonials />
       <Contact />
       <Footer />
+      <WhatsAppButton phoneNumber="+919315869313" />
+      <ScrollToTop />
     </div>
   );
 };

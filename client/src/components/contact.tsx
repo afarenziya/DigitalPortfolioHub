@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -120,8 +121,8 @@ export const Contact = () => {
                     </div>
                     <div>
                       <h4 className="text-foreground font-medium mb-1">Email</h4>
-                      <a href="mailto:hello@devportfolioai.com" className="text-muted-foreground hover:text-primary transition-colors duration-300">
-                        hello@devportfolioai.com
+                      <a href="mailto:afarenziya@gmail.com" className="text-muted-foreground hover:text-primary transition-colors duration-300">
+                        afarenziya@gmail.com
                       </a>
                     </div>
                   </div>
@@ -132,8 +133,8 @@ export const Contact = () => {
                     </div>
                     <div>
                       <h4 className="text-foreground font-medium mb-1">Phone</h4>
-                      <a href="tel:+1234567890" className="text-muted-foreground hover:text-primary transition-colors duration-300">
-                        +1 (234) 567-890
+                      <a href="tel:+919315869313" className="text-muted-foreground hover:text-primary transition-colors duration-300">
+                        +91 93158 69313
                       </a>
                     </div>
                   </div>
@@ -144,7 +145,7 @@ export const Contact = () => {
                     </div>
                     <div>
                       <h4 className="text-foreground font-medium mb-1">Location</h4>
-                      <p className="text-muted-foreground">San Francisco, California, USA</p>
+                      <p className="text-muted-foreground">85 SD-II, Greater Noida West, India</p>
                     </div>
                   </div>
                 </div>
@@ -152,17 +153,17 @@ export const Contact = () => {
                 <div className="pt-6 border-t border-muted/30">
                   <h4 className="text-foreground font-medium mb-4">Connect on social media:</h4>
                   <div className="flex space-x-4">
-                    <a href="#" className="h-12 w-12 rounded-lg bg-muted flex items-center justify-center text-muted-foreground hover:text-primary transition-colors duration-300">
+                    <a href="https://www.instagram.com/iajayfarenziya/" target="_blank" rel="noopener noreferrer" className="h-12 w-12 rounded-lg bg-muted flex items-center justify-center text-muted-foreground hover:text-primary transition-colors duration-300">
+                      <i className="fab fa-instagram text-xl"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@digitalpanel" target="_blank" rel="noopener noreferrer" className="h-12 w-12 rounded-lg bg-muted flex items-center justify-center text-muted-foreground hover:text-primary transition-colors duration-300">
+                      <i className="fab fa-youtube text-xl"></i>
+                    </a>
+                    <a href="https://www.threads.net/@ozzohmedia" target="_blank" rel="noopener noreferrer" className="h-12 w-12 rounded-lg bg-muted flex items-center justify-center text-muted-foreground hover:text-primary transition-colors duration-300">
                       <i className="fab fa-twitter text-xl"></i>
                     </a>
-                    <a href="#" className="h-12 w-12 rounded-lg bg-muted flex items-center justify-center text-muted-foreground hover:text-primary transition-colors duration-300">
-                      <i className="fab fa-linkedin-in text-xl"></i>
-                    </a>
-                    <a href="#" className="h-12 w-12 rounded-lg bg-muted flex items-center justify-center text-muted-foreground hover:text-primary transition-colors duration-300">
+                    <a href="https://github.com/afarenziya" target="_blank" rel="noopener noreferrer" className="h-12 w-12 rounded-lg bg-muted flex items-center justify-center text-muted-foreground hover:text-primary transition-colors duration-300">
                       <i className="fab fa-github text-xl"></i>
-                    </a>
-                    <a href="#" className="h-12 w-12 rounded-lg bg-muted flex items-center justify-center text-muted-foreground hover:text-primary transition-colors duration-300">
-                      <i className="fab fa-dribbble text-xl"></i>
                     </a>
                   </div>
                 </div>
@@ -240,7 +241,7 @@ export const Contact = () => {
                     className="h-5 w-5 rounded data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground"
                   />
                   <Label htmlFor="privacy" className="text-muted-foreground">
-                    I agree to the <a href="#" className="text-primary hover:underline">Privacy Policy</a>
+                    I agree to the <Link href="/privacy-policy" className="text-primary hover:underline">Privacy Policy</Link>
                   </Label>
                 </div>
                 

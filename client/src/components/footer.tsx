@@ -24,17 +24,23 @@ export const Footer = () => {
             </p>
             
             <div className="flex space-x-4">
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors duration-300">
+              <a href="https://www.instagram.com/iajayfarenziya/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors duration-300">
+                <i className="fab fa-instagram text-xl"></i>
+              </a>
+              <a href="https://www.youtube.com/@digitalpanel" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors duration-300">
+                <i className="fab fa-youtube text-xl"></i>
+              </a>
+              <a href="https://www.threads.net/@ozzohmedia" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors duration-300">
                 <i className="fab fa-twitter text-xl"></i>
               </a>
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors duration-300">
-                <i className="fab fa-linkedin-in text-xl"></i>
+              <a href="https://x.com/Farenziya" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors duration-300">
+                <i className="fab fa-x-twitter text-xl"></i>
               </a>
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors duration-300">
+              <a href="https://github.com/afarenziya" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors duration-300">
                 <i className="fab fa-github text-xl"></i>
               </a>
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors duration-300">
-                <i className="fab fa-dribbble text-xl"></i>
+              <a href="https://www.linkedin.com/in/ajay-farenziya/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors duration-300">
+                <i className="fab fa-linkedin-in text-xl"></i>
               </a>
             </div>
           </div>
@@ -66,15 +72,15 @@ export const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <i className="fas fa-envelope text-primary mt-1 mr-3"></i>
-                <a href="mailto:hello@devportfolioai.com" className="text-muted-foreground hover:text-primary transition-colors duration-300">hello@devportfolioai.com</a>
+                <a href="mailto:afarenziya@gmail.com" className="text-muted-foreground hover:text-primary transition-colors duration-300">afarenziya@gmail.com</a>
               </li>
               <li className="flex items-start">
                 <i className="fas fa-phone text-primary mt-1 mr-3"></i>
-                <a href="tel:+1234567890" className="text-muted-foreground hover:text-primary transition-colors duration-300">+1 (234) 567-890</a>
+                <a href="tel:+919315869313" className="text-muted-foreground hover:text-primary transition-colors duration-300">+91 93158 69313</a>
               </li>
               <li className="flex items-start">
                 <i className="fas fa-map-marker-alt text-primary mt-1 mr-3"></i>
-                <span className="text-muted-foreground">San Francisco, California, USA</span>
+                <span className="text-muted-foreground">85 SD-II, Greater Noida West, India</span>
               </li>
             </ul>
           </div>
@@ -86,7 +92,7 @@ export const Footer = () => {
           </p>
           
           <div className="flex space-x-6">
-            <a href="#" className="text-muted-foreground hover:text-primary transition-colors duration-300 text-sm">Privacy Policy</a>
+            <Link href="/privacy-policy" className="text-muted-foreground hover:text-primary transition-colors duration-300 text-sm">Privacy Policy</Link>
             <a href="#" className="text-muted-foreground hover:text-primary transition-colors duration-300 text-sm">Terms of Service</a>
             <a href="#" className="text-muted-foreground hover:text-primary transition-colors duration-300 text-sm">Sitemap</a>
           </div>

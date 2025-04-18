@@ -19,7 +19,7 @@ export const Navbar = () => {
       <div className="container mx-auto px-4 md:px-6 py-4">
         <div className="flex justify-between items-center">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-2">
+          <Link href="/#home" className="flex items-center space-x-2">
             <div className="relative w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
               <span className="text-white font-bold text-xl">D</span>
               <div className="absolute -top-1 -right-1 w-4 h-4 bg-amber-500 rounded-full flex items-center justify-center">
@@ -31,8 +31,8 @@ export const Navbar = () => {
             </span>
           </Link>
 
-          {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8">
+          {/* Desktop Navigation - Centered */}
+          <div className="hidden md:flex items-center justify-center space-x-8 flex-1 ml-16">
             <Link href="/#home" className="text-foreground hover:text-primary transition-colors duration-300 font-medium">
               Home
             </Link>
@@ -48,9 +48,20 @@ export const Navbar = () => {
             <Link href="/#testimonials" className="text-foreground hover:text-primary transition-colors duration-300 font-medium">
               Testimonials
             </Link>
-            <Link href="/#contact" className="bg-gradient-to-r from-primary to-secondary text-white px-5 py-2 rounded-full hover:opacity-90 transition-opacity duration-300 font-medium">
+            <Link href="/#contact" className="text-foreground hover:text-primary transition-colors duration-300 font-medium">
               Contact
             </Link>
+          </div>
+
+          {/* Phone Number Button */}
+          <div className="hidden md:block">
+            <a 
+              href="tel:+919315869313" 
+              className="bg-gradient-to-r from-primary to-secondary text-white px-5 py-2 rounded-full hover:opacity-90 transition-opacity duration-300 font-medium flex items-center"
+            >
+              <i className="fas fa-phone-alt mr-2"></i>
+              +91 93158 69313
+            </a>
           </div>
 
           {/* Mobile menu button */}
@@ -86,9 +97,16 @@ export const Navbar = () => {
           <Link href="/#testimonials" className="text-foreground hover:text-primary transition-colors duration-300 font-medium py-2">
             Testimonials
           </Link>
-          <Link href="/#contact" className="bg-gradient-to-r from-primary to-secondary text-white px-5 py-3 rounded-full hover:opacity-90 transition-opacity duration-300 font-medium text-center">
+          <Link href="/#contact" className="text-foreground hover:text-primary transition-colors duration-300 font-medium py-2">
             Contact
           </Link>
+          <a 
+            href="tel:+919315869313" 
+            className="bg-gradient-to-r from-primary to-secondary text-white px-5 py-3 rounded-full hover:opacity-90 transition-opacity duration-300 font-medium text-center"
+          >
+            <i className="fas fa-phone-alt mr-2"></i>
+            +91 93158 69313
+          </a>
         </div>
       </div>
     </nav>
