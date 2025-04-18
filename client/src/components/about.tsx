@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
+import { TeamSlider } from "@/components/ui/team-slider";
 
 export const About = () => {
   return (
@@ -32,7 +33,7 @@ export const About = () => {
               {/* Stats */}
               <div className="grid grid-cols-3 gap-4 mt-4">
                 <div className="bg-card rounded-xl p-4 border border-muted/20 text-center">
-                  <h4 className="text-3xl font-heading font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">7+</h4>
+                  <h4 className="text-3xl font-heading font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">6+</h4>
                   <p className="text-muted-foreground text-sm mt-1">Years Experience</p>
                 </div>
                 <div className="bg-card rounded-xl p-4 border border-muted/20 text-center">
@@ -50,7 +51,7 @@ export const About = () => {
           <div>
             <div className="inline-flex items-center px-3 py-1 rounded-full bg-muted text-primary text-sm font-medium mb-4">
               <div className="flex h-2 w-2 rounded-full bg-primary mr-2"></div>
-              About Me
+              About Us
             </div>
             
             <h2 className="text-3xl md:text-4xl font-heading font-bold mb-6">
@@ -62,11 +63,11 @@ export const About = () => {
             </h2>
             
             <p className="text-muted-foreground text-lg mb-6">
-              Hi, I'm Alex! I'm a full-stack developer and digital marketing specialist with a passion for creating AI-powered digital solutions that help businesses grow and succeed online.
+              We are a team of passionate digital marketing and web development professionals led by Ajay Farenziya, dedicated to creating AI-powered digital solutions that help businesses grow and succeed online.
             </p>
             
             <p className="text-muted-foreground mb-8">
-              With over 7 years of experience working with startups and established businesses, I specialize in creating seamless, user-centered digital experiences that not only look beautiful but also drive real business results. I believe in the power of technology to transform how we interact with the digital world, and I'm particularly excited about the potential of AI to create more personalized, efficient digital experiences.
+              With over 6 years of experience working with startups and established businesses, we specialize in creating seamless, user-centered digital experiences that not only look beautiful but also drive real business results. We believe in the power of technology to transform how we interact with the digital world, and we're particularly excited about the potential of AI to create more personalized, efficient digital experiences.
             </p>
             
             <div className="space-y-6 mb-8">
@@ -117,6 +118,23 @@ export const About = () => {
               </Button>
             </div>
           </div>
+        </div>
+
+        {/* Team section */}
+        <div className="mt-24">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">
+              Meet Our{" "}
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-secondary to-primary">
+                Expert Team
+              </span>
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
+              Our diverse team of professionals is passionate about delivering exceptional digital experiences with innovation and expertise.
+            </p>
+          </div>
+          
+          <TeamSlider />
         </div>
       </div>
     </section>
