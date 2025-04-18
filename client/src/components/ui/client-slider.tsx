@@ -6,31 +6,31 @@ interface Client {
   logo: string;
 }
 
-// Example client logos - these would typically be real client logos
+// Client logos with local SVG files
 const clients: Client[] = [
   {
-    name: "TechCorp",
-    logo: "https://via.placeholder.com/150x60/7C3AED/FFFFFF?text=TechCorp"
+    name: "TechCo",
+    logo: "/images/clients/client1.svg"
   },
   {
-    name: "InnovateLabs",
-    logo: "https://via.placeholder.com/150x60/C026D3/FFFFFF?text=InnovateLabs"
+    name: "Innovate",
+    logo: "/images/clients/client2.svg"
   },
   {
-    name: "FutureWorks",
-    logo: "https://via.placeholder.com/150x60/4338CA/FFFFFF?text=FutureWorks"
+    name: "DigitalX",
+    logo: "/images/clients/client3.svg"
   },
   {
-    name: "NextGen",
-    logo: "https://via.placeholder.com/150x60/9D174D/FFFFFF?text=NextGen"
+    name: "WebFlex",
+    logo: "/images/clients/client4.svg"
   },
   {
-    name: "WebSolutions",
-    logo: "https://via.placeholder.com/150x60/059669/FFFFFF?text=WebSolutions"
+    name: "AIGroup",
+    logo: "/images/clients/client5.svg"
   },
   {
-    name: "DigitalBoost",
-    logo: "https://via.placeholder.com/150x60/D97706/FFFFFF?text=DigitalBoost"
+    name: "TechBoost",
+    logo: "/images/clients/client1.svg" // Reusing client1.svg for the last one
   }
 ];
 

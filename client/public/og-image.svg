@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with gradient -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f0f0f" />
+      <stop offset="100%" stop-color="#1e1e2e" />
+    </linearGradient>
+    <linearGradient id="logo-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7C3AED" />
+      <stop offset="100%" stop-color="#EC4899" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Main background -->
+  <rect width="1200" height="630" fill="url(#bg-gradient)" />
+  
+  <!-- Decorative elements -->
+  <circle cx="200" cy="500" r="300" fill="#7C3AED" opacity="0.1" />
+  <circle cx="1000" cy="100" r="200" fill="#EC4899" opacity="0.1" />
+  
+  <!-- Logo -->
+  <g transform="translate(150, 215)">
+    <rect width="150" height="150" rx="30" fill="url(#logo-gradient)" />
+    <text x="75" y="100" font-family="Arial, sans-serif" font-weight="bold" font-size="80" text-anchor="middle" fill="white">D</text>
+    <circle cx="120" cy="30" r="25" fill="#FBBF24" />
+    <text x="120" y="38" font-family="Arial, sans-serif" font-weight="bold" font-size="18" text-anchor="middle" fill="#111827">AI</text>
+  </g>
+  
+  <!-- Company name -->
+  <text x="350" y="280" font-family="Arial, sans-serif" font-weight="bold" font-size="60" fill="white">DevPortfolio<tspan fill="#7C3AED">AI</tspan></text>
+  
+  <!-- Tagline -->
+  <text x="350" y="350" font-family="Arial, sans-serif" font-size="30" fill="#E5E7EB">AI-Enhanced Digital Marketing & Web Development</text>
+  
+  <!-- Features -->
+  <g transform="translate(350, 410)">
+    <circle cx="15" cy="15" r="8" fill="#7C3AED" />
+    <text x="40" y="23" font-family="Arial, sans-serif" font-size="24" fill="#E5E7EB">Web Development</text>
+    
+    <circle cx="265" cy="15" r="8" fill="#7C3AED" />
+    <text x="290" y="23" font-family="Arial, sans-serif" font-size="24" fill="#E5E7EB">Digital Marketing</text>
+    
+    <circle cx="515" cy="15" r="8" fill="#7C3AED" />
+    <text x="540" y="23" font-family="Arial, sans-serif" font-size="24" fill="#E5E7EB">Social Media</text>
+  </g>
+  
+  <!-- Website URL -->
+  <text x="600" y="550" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#9CA3AF">devportfolioai.com</text>
+</svg>

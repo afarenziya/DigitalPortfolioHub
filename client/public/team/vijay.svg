@@ -1,10 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
-  <rect width="300" height="300" fill="#059669" opacity="0.1"/>
-  <circle cx="150" cy="100" r="50" fill="#059669" opacity="0.6"/>
-  <rect x="90" y="160" width="120" height="120" rx="10" fill="#059669" opacity="0.4"/>
-  <text x="150" y="200" font-family="Arial" font-size="20" font-weight="bold" fill="#059669" text-anchor="middle">Vijay</text>
-  <text x="150" y="230" font-family="Arial" font-size="16" fill="#059669" text-anchor="middle">Data Scientist</text>
-  <path d="M130 90 Q150 120 170 90" stroke="#fff" stroke-width="3" fill="none"/>
-  <circle cx="130" cy="80" r="5" fill="#fff"/>
-  <circle cx="170" cy="80" r="5" fill="#fff"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="300" fill="#1e1e2e" />
+  <circle cx="150" cy="120" r="70" fill="#10B981" />
+  <text x="150" y="130" font-family="Arial, sans-serif" font-weight="bold" font-size="40" text-anchor="middle" fill="white">VJ</text>
+  <rect x="50" y="210" width="200" height="20" fill="#4C1D95" rx="5" />
+  <rect x="75" y="240" width="150" height="15" fill="#4C1D95" rx="5" />
 </svg>

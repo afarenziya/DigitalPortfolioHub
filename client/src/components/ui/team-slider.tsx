@@ -11,12 +11,12 @@ const teamMembers: TeamMember[] = [
   {
     name: "Ajay Farenziya",
     title: "Co-Founder & CEO",
-    image: "/team/ajay.svg"
+    image: "/team/ajay.jpg"
   },
   {
     name: "Madhuri",
     title: "Co-Founder",
-    image: "/team/madhuri.svg"
+    image: "/team/madhuri.jpg"
   },
   {
     name: "Abhishek",

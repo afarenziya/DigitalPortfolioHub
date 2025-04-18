@@ -1,21 +1,36 @@
 {
-  "name": "DevPortfolioAI - AI-Enhanced Web Development & Digital Marketing",
+  "name": "DevPortfolioAI - AI-Enhanced Digital Marketing & Web Development",
   "short_name": "DevPortfolioAI",
   "description": "Expert team with 6+ years of experience in AI-enhanced web development, digital marketing, and social media management.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#111827",
+  "background_color": "#121212",
   "theme_color": "#7C3AED",
   "icons": [
     {
-      "src": "/icon-192x192.png",
-      "sizes": "192x192",
+      "src": "/favicon.svg",
+      "sizes": "32x32",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/favicon-16x16.svg",
+      "sizes": "16x16",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/favicon-32x32.svg",
+      "sizes": "32x32",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
       "type": "image/png"
     },
     {
-      "src": "/icon-512x512.png",
+      "src": "/images/logo.svg",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/svg+xml"
     }
   ]
 }
