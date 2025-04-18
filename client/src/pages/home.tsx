@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Navbar } from "@/components/navbar";
+import { Layout } from "@/components/layout";
 import { Hero } from "@/components/hero";
 import { Services } from "@/components/services";
 import { Portfolio } from "@/components/portfolio";
@@ -7,9 +7,6 @@ import { About } from "@/components/about";
 import { Testimonials } from "@/components/testimonials";
 import { Clients } from "@/components/clients";
 import { Contact } from "@/components/contact";
-import { Footer } from "@/components/footer";
-import { WhatsAppButton } from "@/components/ui/whatsapp-button";
-import { ScrollToTop } from "@/components/ui/scroll-to-top";
 
 const Home = () => {
   // Implement smooth scrolling for anchor links
@@ -42,8 +39,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-background text-foreground">
-      <Navbar />
+    <Layout>
       <Hero />
       <Services />
       <Portfolio />
@@ -51,10 +47,7 @@ const Home = () => {
       <Clients />
       <Testimonials />
       <Contact />
-      <Footer />
-      <WhatsAppButton phoneNumber="+919315869313" />
-      <ScrollToTop />
-    </div>
+    </Layout>
   );
 };
 

@@ -1,0 +1,21 @@
+{
+  "name": "DevPortfolioAI - AI-Enhanced Web Development & Digital Marketing",
+  "short_name": "DevPortfolioAI",
+  "description": "Expert team with 6+ years of experience in AI-enhanced web development, digital marketing, and social media management.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#111827",
+  "theme_color": "#7C3AED",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
